@@ -1,0 +1,104 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line-thin",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "catppuccin-latte",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "editor.formatOnSave": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "editor.fontLigatures": false,
+  "editor.bracketPairColorization.enabled": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Iosevka', 'MonoLisa Regular', 'Operator Mono'",
+  "breadcrumbs.enabled": false,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.startupEditor": "none",
+  "files.exclude": {
+    "**/.idea": true,
+    "**/.next": true
+  },
+  "git.path": "/usr/bin/git",
+  "redhat.telemetry.enabled": false,
+  "go.toolsManagement.autoUpdate": true,
+  "search.exclude": {
+    "**/dist/**": true
+  },
+  "editor.guides.indentation": false,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontFamily": "Monaco, 'DejaVu Sans Mono for Powerline'",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "eslint.workingDirectories": ["./frontend"],
+  "http.proxySupport": "off",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 3,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "application.shellEnvironmentResolutionTimeout": 20,
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontSize": 14,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "npm.packageManager": "yarn",
+  "workbench.tree.indent": 24,
+  "workbench.tree.renderIndentGuides": "always",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "explorer.compactFolders": false,
+  "background.fullscreen": {
+    "images": ["file:///Users/javierdiaz/Pictures/kokushibo.jpeg"], // urls of your images
+    "opacity": 0.9, // 0.85 ~ 0.95 recommended
+    "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+    "position": "center", // alias to `background-position`, default `center`
+    "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  }
+}
